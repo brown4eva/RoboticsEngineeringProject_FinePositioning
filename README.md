@@ -44,7 +44,7 @@ Meldrick Reimmer, Selma Boudisssa and Sonizara Danie
 
 
 ## Project Supervisors
-Ralph Seulin, Raphael Duver and Marc Blanchon.
+Ralph Seulin, Raphael Duverne and Marc Blanchon.
  
 
 
