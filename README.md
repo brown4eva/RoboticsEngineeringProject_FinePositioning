@@ -13,8 +13,23 @@ The channel is at follows:
 Our part is based on the 3rd channel (Fine Positioning). Using Visual Servoing techniques our robot must find the position of the target autonomously.
 We describe in a brief survey report the different methods of visual servoing.
 
+## Visual Servoing
+ The use of information acquired by vision sensors (cameras) for feedback control of the pose/motion of a robot (or of parts of it).
+ 
+ **Some applications**
+ 1. Automatic navigation of robotic systems (agricolture, automotive) 
+ 2. Surveillance
+ 3. Bio-motion synchronization (surgical robotics)
+ 
+ 
+  **Techniques**
+  1. Pose-Based Visual Servoing
+  2. Image-Based Visual Servoing
+  3. 2.5 D Visual Servoing
+  4. Shortest-Path Visual Servoing
+ 
 
-## Objectives:
+## Project Objectives:
 - Research on the different techniques (refer to the survey report)
 - Simulate and choose the more accurate technique
 - Implement it
