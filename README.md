@@ -10,7 +10,7 @@ The channel is at follows:
 4. Pick & Place
 5. Mapping & Localization
 
-Our part is based on the 3rd channel(Fine Positioning). Using Visual Servoing techniques our robot must find the position of the target autonomously.
+Our part is based on the 3rd channel (Fine Positioning). Using Visual Servoing techniques our robot must find the position of the target autonomously.
 We describe in a brief survey report the different methods of visual servoing.
 
 
