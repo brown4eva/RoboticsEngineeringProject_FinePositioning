@@ -11,9 +11,9 @@ Using Visual Servoing techniques our robot must find the fine position of the ta
 
 
 
-**Medias link :**
+## Medias link :
 
-## Related Videos
+**Related Videos**
 1. Gazebo simulation: Position Based Visual Servoing https://www.youtube.com/watch?v=xyLBbCFqOWw&feature=youtu.be
 2. Simulation of position based visual servoing using Turtlebot https://www.youtube.com/watch?v=-IIlRZ5Ic-g
 3. Marker detection in Ros/Gazebo https://www.youtube.com/watch?v=P7wtMc_A8eY
