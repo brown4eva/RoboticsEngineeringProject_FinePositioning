@@ -29,11 +29,11 @@ We describe in a brief survey report the different methods of visual servoing.
 3. Marker detection in Ros/Gazebo https://www.youtube.com/watch?v=P7wtMc_A8eY
 
 **Related Papers**
-1.R. Santos,"Evaluation of Visual Servoing techniques for Robotic Applications",2007.
-2.Prof. Alessandro De Luca,"Visual Servoing".
-3.J-S. Farrokh,"Visual Servoing:Theory and Applications",pp. 15-5.
-4.R. Patrick Goebel,"ROS by example Volume 2, Packages and Programs for Advanced Robot Behaviors"
-5.Kyrki, V., Kragic, D., and Christensen, H., Oct. 2004, “New shortest-path approaches to visual
+1. R. Santos,"Evaluation of Visual Servoing techniques for Robotic Applications",2007.
+2. Prof. Alessandro De Luca,"Visual Servoing".
+3. J-S. Farrokh,"Visual Servoing:Theory and Applications",pp. 15-5.
+4. R. Patrick Goebel,"ROS by example Volume 2, Packages and Programs for Advanced Robot Behaviors"
+5. Kyrki, V., Kragic, D., and Christensen, H., Oct. 2004, “New shortest-path approaches to visual
 servoing” in IEEE Int. Conf. on Intelligent Robots and Systems, Sendai, Japan, pp. 349–355.
 
 **Project Management**
