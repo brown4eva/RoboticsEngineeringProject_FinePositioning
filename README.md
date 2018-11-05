@@ -1,7 +1,7 @@
 # Fine Positioning (Visual Servoing)
 
-This is our project for our course module Robotics Engineering. 
-The project is subdivided into differents part each group is supposed to implement is own part and at the end communicate in order to make fully autonomous scenario. 
+This project is for our course module Robotics Engineering. 
+It is subdivided into different parts, each group is supposed to implement is own part and at the end make a fully autonomous scenario. 
 
 The channel is at follows:
 1. Navigation
@@ -10,7 +10,7 @@ The channel is at follows:
 4. Pick & Place
 5. Mapping & Localization
 
-Using Visual Servoing techniques our robot must find the fine position of the target autonomously.
+Our part is based on the 3rd channel(Fine Positioning). Using Visual Servoing techniques our robot must find the position of the target autonomously.
 We describe in a brief survey report the different methods of visual servoing.
 
 
