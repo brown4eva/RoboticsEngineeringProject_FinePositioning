@@ -23,6 +23,8 @@ Given any location of the robot(Turtlebot2) we are to position it at a specific 
 4. Detect and track the tag
 5. Move to the exact location of the tag
 
+# Implementation
+
 
  
 
