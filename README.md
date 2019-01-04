@@ -14,6 +14,7 @@ Our part is based on the 3rd channel (Fine Positioning). Using Visual Servoing t
 We describe in a brief survey report the different methods of visual servoing.
 
 # Problem Statement
+Given any location of the robot(Turtlebot2) we are to position it at a specific location known as the loaded area. We are to exatcly put the Turtlebot2 in a postion where the robotic arm will be able to pick the cube and place it on the Turtlebot2.
 
 # Objectives
 
