@@ -14,11 +14,10 @@
   4. Shortest-Path Visual Servoing
  
 
-## Project Objectives:
+## Objectives:
 - Research on the different techniques (refer to the survey report)
 - Simulate and choose the more accurate technique
 - Implement it
-- Make a full scenario with the other teams group
 
 
 ## Media links :
