@@ -16,7 +16,7 @@ We describe in a brief survey report the different methods of visual servoing.
 ## Visual Servoing
  The use of information acquired by vision sensors (cameras) for feedback control of the pose/motion of a robot (or of parts of it).
  
- **Some applications**
+ **Some applications:**
  1. Automatic navigation of robotic systems (agricolture, automotive) 
  2. Surveillance
  3. Bio-motion synchronization (surgical robotics)
