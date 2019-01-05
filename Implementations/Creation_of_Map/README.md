@@ -32,6 +32,9 @@
       $ rosbag record  my_scan_data/scan/tf
       $ roscd rbx1_nav/map
       $ rosrun map_server map_saver -f roboticroom_map (choose the name of your map) 
+     
+     
+
       
       
 
