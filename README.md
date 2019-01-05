@@ -9,7 +9,6 @@ It is subdivided into different parts, each group is supposed to implement is ow
 <img src="Materials/images/intro.JPG" width="300">
 </p>
 
-
 The channel is at follows:
 1. Navigation
 2. Mapping & Localization
@@ -18,7 +17,8 @@ The channel is at follows:
 5. Mapping & Localization
 
 Our part is based on the 3rd channel (Fine Positioning). Using a Visual Servoing techniques our robot must find the position of the target autonomously.
-We describe in a brief technical survey report the different methods of **Visual Servoing**. You can find the pdf here [Technical Survey Report](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/TechnicalSurveyReport) 
+We describe in a brief technical survey report the different methods of **Visual Servoing**. You can find the pdf here [Technical Survey Report.](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/TechnicalSurveyReport)
+We will describe the method in which we used in achieving the task needed for our parts.
 
 # Problem Statement
 Given any location of the robot(Turtlebot2) we are to position it at a specific location known as the loaded area. We are to exatcly put the Turtlebot2 in a postion where the robotic arm will be able to pick the cube and place it on the Turtlebot2.
