@@ -1,0 +1,14 @@
+<launch>
+    
+<include file="$(find fine_positioning)/launch/ar_large_markers_kinect.launch" />
+
+<node type="rviz" name="rviz" pkg="rviz" args="-d $(find fine_positioning)/rviz/fine_positioning.rviz" />
+
+
+<include file="$(find fine_positioning)/launch/ar_follower.launch" />
+
+
+
+
+</launch>
+
