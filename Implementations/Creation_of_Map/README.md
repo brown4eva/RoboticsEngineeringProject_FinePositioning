@@ -32,11 +32,13 @@
       $ rosbag record  my_scan_data/scan/tf
       $ roscd rbx1_nav/map
       $ rosrun map_server map_saver -f roboticroom_map (choose the name of your map) 
+      
      
      
-## Related Video 
+## Related Video & Map Saved
 
-[![](http://img.youtube.com/vi/GcMuJutT3g0/0.jpg)](http://www.youtube.com/watch?v=GcMuJutT3g0 "Navigating using Teleop")
+[![](http://img.youtube.com/vi/GcMuJutT3g0/0.jpg)](http://www.youtube.com/watch?v=GcMuJutT3g0 "Navigating using Teleop")  <img src="/Materials/images/map.JPG" width="300"> 
+
       
       
 
