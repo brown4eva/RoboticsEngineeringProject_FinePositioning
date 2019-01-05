@@ -1,2 +1,1 @@
--Open terminal
-
+# Creation of Map
