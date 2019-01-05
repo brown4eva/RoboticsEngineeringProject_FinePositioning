@@ -24,9 +24,9 @@ Given any location of the robot(Turtlebot2) we are to position it at a specific 
 5. Moving to the exact location of the tag
 
 # Implementation
-We accomplished each task of the objectives stated in order to give a solution to the **Problem Statement** . The first three steps were just a basic step for us since we had hand experience with this during our Bachelor year.
+We accomplished each task of the objectives stated in order to give a solution to the **Problem Statement** .**Step 1 to Step 3** were just asic step for us since we had hand experience with this during our Bachelor year.
 
-If this is your first time being on this ros platform please follow the steps we provided and assisted videos which will help in accomplishing the first three steps. We believe you will be able to have a hand in identifying the **Problem Statement** and you will also have a creative idea for solving it as well we did as we did. If you are good to go then move to step 4.
+If this is your first time being on this ros platform please follow the steps we provided and assisted videos which will help in accomplishing the first three steps. We believe you will be able to have a hand in identifying the **Problem Statement** and you will also have a creative idea for solving it as well as we did. If you are good to go then move to step 4.
 
 **Step 4:**
 
