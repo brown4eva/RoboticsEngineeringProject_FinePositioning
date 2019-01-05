@@ -25,6 +25,10 @@
   
       $ cd ~/catkin_ws/src/fine_positioning/nodes
       $ python go_to_specific_point_on_map.py 
+      
+      
+ ## Related Video
+ [![](http://img.youtube.com/vi/YPPbcnevZK8/0.jpg)](http://www.youtube.com/watch?v=YPPbcnevZK8 "Navigating to specific Location With Rviz ")
 
 
 
