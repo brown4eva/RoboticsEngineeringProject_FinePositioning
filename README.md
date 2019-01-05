@@ -1,7 +1,13 @@
 # Introduction
 
-This project is for our course module Robotics Engineering. 
-It is subdivided into different parts, each group is supposed to implement is own part and at the end make a fully autonomous scenario. 
+This project is for our course module in Robotics Engineering. 
+The project main goal is to enable a robot (TurtleBot2) to pick up an Object from a location and Transport it to another Location. **Transportation will be done with the TurtleBot2** and the **Pick & Place with Robotic Arm**. 
+
+It is subdivided into different parts, each group is supposed to implement is own part and at the end make a fully autonomous scenario.
+
+<p align="center">
+<img src="Materials/images/intro.JPG" width="300">
+</p>
 
 The channel is at follows:
 1. Navigation
@@ -11,10 +17,15 @@ The channel is at follows:
 5. Mapping & Localization
 
 Our part is based on the 3rd channel (Fine Positioning). Using a Visual Servoing techniques our robot must find the position of the target autonomously.
-We describe in a brief technical survey report the different methods of **Visual Servoing**. You can find the pdf here [Technical Survey Report](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/TechnicalSurveyReport) 
+We describe in a brief technical survey report the different methods of **Visual Servoing**. You can find the pdf here [Technical Survey Report.](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/TechnicalSurveyReport)
+We will describe the method in which we used in achieving the task needed for our parts.
 
 # Problem Statement
 Given any location of the robot(Turtlebot2) we are to position it at a specific location known as the loaded area. We are to exatcly put the Turtlebot2 in a postion where the robotic arm will be able to pick the cube and place it on the Turtlebot2.
+
+<p align="center">
+<img src="Materials/images/pos2.JPG" width="300"> <img src="Materials/images/finepos.JPG" width="300"> 
+</p>
 
 # Objectives
 1. Creating  a Map
