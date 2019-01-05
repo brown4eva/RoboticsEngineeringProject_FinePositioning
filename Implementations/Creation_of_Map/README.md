@@ -34,7 +34,9 @@
       $ rosrun map_server map_saver -f roboticroom_map (choose the name of your map) 
      
      
+## Related Video 
 
+[![](http://img.youtube.com/vi/GcMuJutT3g0/0.jpg)](http://www.youtube.com/watch?v=GcMuJutT3g0 "Navigating using Teleop")
       
       
 
