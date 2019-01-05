@@ -1,4 +1,5 @@
 # Creation of Map
+**Steps To Follow :**
 - Open terminal
 
       $ ssh turtlebot@...........(connect to your turtlebot IP)
