@@ -1,7 +1,7 @@
 # Introduction
 
 This project is for our course module in Robotics Engineering. 
-The project main goal is to enable a robot (TurtleBot2) to pick up an Object from a location and Transport it to another Location. **Transportation will be done with the TurtleBot2** and the **Pick & Place with Robotic Arm**. 
+The project main goal is to enable a robot (TurtleBot2) to pick up an Object from a location and Transport it to another Location. **Transportation will be done with the TurtleBot2** and the **Pick & Place with Robotic Arm (PhantomX Robot Arm)**. 
 
 It is subdivided into different parts, each group is supposed to implement is own part and at the end make a fully autonomous scenario.
 
@@ -18,7 +18,7 @@ The channel is at follows:
 
 Our part is based on the 3rd channel (Fine Positioning). Using a Visual Servoing techniques our robot must find the position of the target autonomously.
 We describe in a brief technical survey report the different methods of **Visual Servoing**. You can find the pdf here [Technical Survey Report.](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/TechnicalSurveyReport)
-We will describe the method in which we used in achieving the task needed for our parts.
+We will describe the method in which we used in achieving the task needed for our part.
 
 # Problem Statement
 Given any location of the robot(Turtlebot2) we are to position it at a specific location known as the loaded area. We are to exatcly put the Turtlebot2 in a postion where the robotic arm will be able to pick the cube and place it on the Turtlebot2.
@@ -41,7 +41,7 @@ We accomplished each task of the objectives stated in order to give a solution t
 
 These were just basic steps for us since we had hand experience with this during our Bachelor year.
 
-If this is your first time being on this ros platform please follow the steps we provided and assisted videos which will help in accomplishing the first three steps. We believe you will be able to have a hand in identifying the **Problem Statement** and you will also have a creative idea for solving it as well as we did. If you are good to go then move to step 4.
+If this is your first time being on this **ROS** platform please follow the steps we provided and assisted videos which will help in accomplishing the first three steps ==> [Creating_Map,Navigating_&_Going_To_Specific_Location.](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/Implementations) We believe you will be able to have a hand in identifying the **Problem Statement** and also having the idea we used in solving teh problem. If you are good to go then move to step 4.
 
 **Step 4:**
 
