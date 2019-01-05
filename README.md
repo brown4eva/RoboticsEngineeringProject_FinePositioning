@@ -21,7 +21,7 @@ We describe in a brief technical survey report the different methods of **Visual
 We will describe the method in which we used in achieving the task needed for our part.
 
 # Problem Statement
-Given any location of the robot(Turtlebot2) we are to position it at a specific location known as the loaded area. We are to exatcly put the Turtlebot2 in a postion where the robotic arm will be able to pick the cube and place it on the Turtlebot2.
+Given any location of the robot(Turtlebot2) we are to position it at a specific location known as the load area. We are to exatcly put the Turtlebot2 in a postion where the robotic arm will be able to pick the cube and place it on the Turtlebot2.
 
 <p align="center">
 <img src="Materials/images/pos2.JPG" width="300"> <img src="Materials/images/finepos.JPG" width="300"> 
@@ -45,6 +45,7 @@ If this is your first time being on this **ROS** platform please follow the step
 
 **Step 4:**
 
+After we have now been able to have some prior knowledge on the where abouts of the robot by following the previous steps, our next step was now to go to the location needed for the loading of the object on the Turtlebot. We did this by adapting to the method used by the ROS book volume 2 Chapter 10 using AR Tags.
 
 
 
