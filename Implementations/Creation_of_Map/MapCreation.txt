@@ -1,0 +1,47 @@
+Implementation: 
+____________________________CREATION OF THE MAP____________________________
+-Open terminal
+
+$ ssh turtlebot@...........
+ (connect to your turtlebot IP)
+$ roslaunch turtlebot_bringup minimal.launch
+
+
+
+-Open new terminal
+
+$ ssh turtlebot@............(connect to your turtlebot IP)
+$ roslaunch turtlebot_navigation gmapping_demo.launch
+
+
+
+-Open new terminal
+
+$ roslaunch turtlebot_rviz_launchers view_navigation.launch
+
+
+
+-Open new terminal
+
+-test the joystich
+
+$ jstest /dev/input/js0
+
+$ ctrl c
+
+$ roslaunch turtlebot_teleop logitech.launch --screen
+
+
+
+
+
+____________________________RECORDING THE MAP__________________________________
+-Open terminal 
+$ roscd rbx1_nav/bag_files
+ (choose your own path)
+$ rosbag record  my_scan_data/scan/tf
+
+$ roscd rbx1_nav/map
+
+$ rosrun map_server map_saver -f roboticroom_map (choose the name of your map) 
+

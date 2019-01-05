@@ -1,0 +1,33 @@
+Implementation:
+
+____________________________NAVIGATION___________________________________________
+
+-Open terminal
+$ ssh turtlebot@................... (connect to your turtlebot IP)
+$ roslaunch turtlebot_bringup minimal.launch
+
+
+
+-new terminal
+
+$ ssh turtlebot@................... (connect to your turtlebot IP)
+
+- launch your map, put your own path
+$ roslaunch turtlebot_navigation amcl_demo.launch map_file:=/home/turtlebot/
+ros/indigo/catkin_ws/src/fine_positioning/maps/roboticroom_map.yaml
+
+
+
+-new terminal
+
+$roslaunch turtlebot_rviz_launchers view_navigation.launch
+
+
+
+- new terminal
+
+$ cd ~/catkin_ws/src/fine_positioning/nodes
+$python go_to_specific_point_on_map.py 
+
+
+_____________________________________________________________________________________
