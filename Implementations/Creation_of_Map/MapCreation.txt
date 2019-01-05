@@ -23,7 +23,7 @@ $ roslaunch turtlebot_rviz_launchers view_navigation.launch
 
 -Open new terminal
 
--test the joystich
+-test the joystick
 
 $ jstest /dev/input/js0
 
