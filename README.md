@@ -32,7 +32,7 @@ Given any location of the robot(Turtlebot2) we are to position it at a specific 
 2. Navigate within the map created 
 3. Going to specific location 
 4. Creation of AR tag to give priori knowledge 
-5. Detect and track AR tag to perform Fine Positioning
+5. Detect, track and follow AR tag to perform Fine Positioning
 
 # Implementation
 We accomplished each task of the objectives stated in order to give a solution to the **Problem Statement** . 
@@ -64,6 +64,17 @@ We then bring up the **ar_track_alvar** node with appropriate parameters for the
 The **ar_track_alvar** node will publish the marker pose relative to the base frame. Once the pose of the AR marker relative to the robot's base is known we now adjust the linear and angular speed through the script **ar_follower.py** that you can found in the directory ==> [nodes](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/source_code/fine_positioning/nodes) which will cause the robot to follow the marker due to the subscription to the topic **/ar_pose_marker**.
 
 
+**Set Up**
+
+<p align="center">
+<img src="Materials/images/finepos1.JPG" width="300"> <img src="Materials/images/finepos2.JPG" width="200"> 
+</p>
+
+- Please do mind the positioning of the robot on the set up was due to the location we gave it when perfominng the navigation. After creating the map we then took the cordinates of where we want it to be, using the topic **/amcl_pose** . We inserted the values in the body of the **go_to_specific_point_on_map.py**.
+
+- To perform the method we used for the fine positioning please follow these steps ==> [Fine Positioning](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/source_code/fine_positioning)
+
+
 **Video of Detection and Tracking of AR tag**
 
 
@@ -74,11 +85,20 @@ The **ar_track_alvar** node will publish the marker pose relative to the base fr
 [![](http://img.youtube.com/vi/xY6Oxkhd12M/0.jpg)](http://www.youtube.com/watch?v=xY6Oxkhd12M "Fine Positioning ")
 
 
+- The above videos show our the **AR tag** was detected and tracked after which the node **ar_follower** makes the TurtleBot2  to move towards it. Observing the video you could clearly see the speed of Turtlebot2 reduces when it gets closer to the tag this was due to the goal we set for the target we want to achieve. we made calculations with regards to the threshold and distance we want the camera to be with the **AR tag**.  Once the camera reaches the goal and distance we assigned with regards to the calculations made the robot as to stop and output **Target Achieved**.  Our method, in this case, becomes more Stationary unlike the original tag follower developed by **ROS by example volume 2**.  We adapted their method of the tag following and made to suit to solve our **Problem Statement**
+
+With regards to your environment or the place of your experiment do put in mind to give a goal to the target and make a loop which will decrease the speed when it gets closer to the tag.
+
+
+
+
 
 # Conclusion
 
+We were able to give a solution to the problem we stated above. We took the various steps we tasked ourselves to and got satisfactory results and in addition got clearer knowledge of Visual Servoing.
 
-
+We tried to make this Repository to be detailed as we could and gave hidden links to the subfolders which are needed in performing the tasks. Please note to follow each step tasked in order to get results as we did.
+ 
  
 
 **Project Management**
