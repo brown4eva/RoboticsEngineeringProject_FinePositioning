@@ -53,8 +53,10 @@ The **AR tags** allows us to estimate their position and orientation with respec
 
 - In order to create the marker follow the steps provided here ==> [Creating Marker](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/Implementations/Creation_of_Marker)
 
+**Video of Detection and Tracking of AR tag**
 
 
+[![](http://img.youtube.com/vi/jX8nt-r6gYA/0.jpg)](http://www.youtube.com/watch?v=jX8nt-r6gYA "Detecting and Tracking Of AR tag")
 
 
 **Step 5 :**
