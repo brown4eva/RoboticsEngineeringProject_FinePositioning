@@ -8,6 +8,8 @@
 </p>
 Camera position on the left side being mounted Eye-in-Hand and on the right side being Fixed Eye-to-Hand.
 
+
+
  **Some applications:**
  1. Automatic navigation of robotic systems (agricolture, automotive) 
  2. Surveillance
