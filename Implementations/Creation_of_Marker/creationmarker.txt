@@ -1,0 +1,17 @@
+Implementation
+
+____________________________CREATION OF MARker____________________________
+
+- installation of ar track alvar package
+$ sudo apt-get install ros-indigo-ar-track-alvar*
+
+
+-downloading rbx2 package from Pirot github
+$ git clone https://github.com/pirobot/rbx2
+- select the location
+$ roscd rbx2_ar_tags/data
+- create your own tag
+$ rosrun ar-track-alvar createMarker0
+
+-viewing the marker
+$ eog MarkerData_0.png
