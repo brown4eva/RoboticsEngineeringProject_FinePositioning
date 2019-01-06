@@ -74,7 +74,7 @@ The **ar_track_alvar** node will publish the marker pose relative to the base fr
 
 - Please do mind the positioning of the robot on the set up was due to the location we gave it when perfominng the navigation. After creating the map we then took the cordinates, using the topic **/amcl_pose**, of where we want it to be . We inserted the values in the body of the script **go_to_specific_point_on_map.py**.
 
-- To perform the method we used for the fine positioning please follow these steps ==> [Fine Positioning](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/source_code/fine_positioning)
+- To perform the method we used for the fine positioning please follow these steps ==> [Fine Positioning](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/source_code)
 
 
 **Video of Detection and Tracking of AR tag**
