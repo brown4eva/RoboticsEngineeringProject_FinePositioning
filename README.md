@@ -51,7 +51,7 @@ We made use of the **ROS** package **ar_track_alvar**. This package can simplify
 
 The **AR tags** allows us to estimate their position and orientation with respect to a camera frame based off of their size in the image and their distortion. The **ar_track_alvar** library computes the projective transformations and spits out the tag’s position. We then make use of this infomation, which gives us knowlege and distance we need to make our turtlebot2 to go to.
 
-- In order to create the marker follow the steps provided here ==> [Creating Marker](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/Implementations)
+- In order to create the marker follow the steps provided here ==> [Creating Marker](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/Implementations/Creation_of_Marker)
 
 
 
