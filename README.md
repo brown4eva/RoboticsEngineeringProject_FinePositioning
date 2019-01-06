@@ -61,6 +61,7 @@ The **AR tags** allows us to estimate their position and orientation with respec
 
 **Step 5 :**
 
+[![](http://img.youtube.com/vi/xY6Oxkhd12M/0.jpg)](http://www.youtube.com/watch?v=xY6Oxkhd12M "Fine Positioning ")
 
 
 
