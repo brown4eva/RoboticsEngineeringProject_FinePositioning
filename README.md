@@ -47,7 +47,11 @@ If this is your first time being on this **ROS** platform please follow the step
 
 After we have now been able to have some prior knowledge on the where abouts of the robot by following the previous steps, our next step was now to go to the location needed for the loading of the object on the Turtlebot2. We did this by adapting to the method used by the ROS book volume 2 Chapter 10 using AR Tags.
 
-We made use of the **ROS** package **ar_track_alvar**. This package can simplify a lot of the big questions and challenges that faces modern day high fidelity perception for robotic systems by the use of fiducials being ** AR Tags**
+We made use of the **ROS** package **ar_track_alvar**. This package can simplify a lot of the big questions and challenges that faces modern day high fidelity perception for robotic systems by the use of fiducials being **AR Tags**. In our case our problem was fine positioning which involves the field of perception.
+
+The **AR tags** allows us to estimate their position and orientation with respect to a camera frame based off of their size in the image and their distortion. The **ar_track_alvar** library computes the projective transformations and spits out the tag’s position. We then make use of the infomation, which gives us knowlege and distance we need to make our turtlebot2 to go to.
+
+
 
 
 
