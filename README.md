@@ -84,8 +84,9 @@ The **ar_track_alvar** node will publish the marker pose relative to the base fr
 
 [![](http://img.youtube.com/vi/xY6Oxkhd12M/0.jpg)](http://www.youtube.com/watch?v=xY6Oxkhd12M "Fine Positioning ")
 
+**OBSERVATION**
 
-- The above videos show our the **AR tag** was detected and tracked after which the node **ar_follower** makes the TurtleBot2  to move towards it. Observing the video you could clearly see the speed of Turtlebot2 reduces when it gets closer to the tag this was due to the goal we set for the target we want to achieve. we made calculations with regards to the threshold and distance we want the camera to be with the **AR tag**.  Once the camera reaches the goal and distance we assigned with regards to the calculations made the robot as to stop and output **Target Achieved**.  Our method, in this case, becomes more Stationary unlike the original tag follower developed by **ROS by example volume 2**.  We adapted their method of the tag following and made to suit to solve our **Problem Statement**
+The above videos show our the **AR tag** was detected and tracked after which the node **ar_follower** makes the TurtleBot2  to move towards it. Observing the video you could clearly see the speed of Turtlebot2 reduces when it gets closer to the tag this was due to the goal we set for the target we want to achieve. we made calculations with regards to the threshold and distance we want the camera to be with the **AR tag**.  Once the camera reaches the goal and distance we assigned with regards to the calculations made the robot as to stop and output **Target Achieved**.  Our method, in this case, becomes more Stationary unlike the original tag follower developed by **ROS by example volume 2**.  We adapted their method of the tag following and made to suit to solve our **Problem Statement**
 
 With regards to your environment or the place of your experiment do put in mind to give a goal to the target and make a loop which will decrease the speed when it gets closer to the tag.
 
