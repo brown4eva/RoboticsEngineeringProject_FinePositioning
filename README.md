@@ -56,7 +56,12 @@ The **AR tags** allows us to estimate their position and orientation with respec
 
 **Step 5 :**
 
-After the AR tag as been 
+After the AR tag as been created, we then print it out and paste it at the exact location being the **Load Area**. This will give us the prior knowledge, so all we need to do is just launch the **ar_track_alvar** node which utilize depth data from an RGB-D camera to assist
+in the detection and localization of a marker and  will publish the pose on the topic **/ar_pose_marker**.
+
+We then bring up the **ar_track_alvar** node with appropriate parameters for the large marker size we launch ar_large_marker_kinect.launch that you can found in the folder ==> [launch](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/source_code/fine_positioning/launch) we then modify the size of the marker set by default to adapt it to our own marker.
+
+The **ar_track_alvar** node will publish the marker pose relative to the base frame. Once the pose of the AR marker relative to the robot's base is known we now adjust the linear and angular speed through the script **ar_follower.py** that you can found in the directory ==> [nodes] (https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/source_code/fine_positioning/nodes) which will cause the robot to follow the marker due to the subscription to the topic **/ar_pose_marker**.
 
 
 **Video of Detection and Tracking of AR tag**
