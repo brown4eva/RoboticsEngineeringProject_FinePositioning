@@ -23,3 +23,10 @@
 - Viewing the marker
 
       $ eog MarkerData_0.png
+      
+      
+ ## Created Marker
+ 
+ <p align="center">
+<img src="/source_code/fine_positioning/data/MarkerData_0.png" width="300">
+</p>
