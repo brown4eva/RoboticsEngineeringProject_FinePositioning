@@ -37,17 +37,21 @@ Given any location of the robot(Turtlebot2) we are to position it at a specific 
 # Implementation
 We accomplished each task of the objectives stated in order to give a solution to the **Problem Statement** . 
 
-**Step 1 to Step 3** 
+**Step 1 to Step 3 :** 
 
 These were just basic steps for us since we had hand experience with this during our Bachelor year.
 
 If this is your first time being on this **ROS** platform please follow the steps we provided and assisted videos which will help in accomplishing the first three steps ==> [Creating_Map,Navigating_&_Going_To_Specific_Location.](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/Implementations) We believe you will be able to have a hand in identifying the **Problem Statement** and also having the idea we used in solving teh problem. If you are good to go then move to step 4.
 
-**Step 4:**
+**Step 4 :**
 
-After we have now been able to have some prior knowledge on the where abouts of the robot by following the previous steps, our next step was now to go to the location needed for the loading of the object on the Turtlebot. We did this by adapting to the method used by the ROS book volume 2 Chapter 10 using AR Tags.
+After we have now been able to have some prior knowledge on the where abouts of the robot by following the previous steps, our next step was now to go to the location needed for the loading of the object on the Turtlebot2. We did this by adapting to the method used by the ROS book volume 2 Chapter 10 using AR Tags.
+
+We made use of the **ROS** package **ar_track_alvar**. This package can simplify a lot of the big questions and challenges that faces modern day high fidelity perception for robotic systems by the use of fiducials being ** AR Tags**
 
 
+
+**Step 5 :**
 
 
 
