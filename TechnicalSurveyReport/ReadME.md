@@ -1,6 +1,13 @@
 # Visual Servoing
- The use of information acquired by vision sensors (cameras) for feedback control of the pose/motion of a robot (or of parts of it).
+ This technical survey report was for us to get introduce to the field of visual servoing and methods to solve our task.
+ Visual Servoing also known as vision-based robot control is method which uses feedback information acquired by vision sensors (cameras) to control the pose/motion of a robot (or parts of it). Its techniques are commonly used for positioning a robot in a desired position or following a target in movement.
  
+ **Configuration of the camera**
+ <p align="center">
+<img src="Materials/images/eyeintohand.JPG" width="300">
+</p>
+
+
  **Some applications:**
  1. Automatic navigation of robotic systems (agricolture, automotive) 
  2. Surveillance
