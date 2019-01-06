@@ -80,7 +80,7 @@ The **ar_track_alvar** node will publish the marker pose relative to the base fr
 **Video of Detection and Tracking of AR tag**
 
 
-[![](http://img.youtube.com/vi/jX8nt-r6gYA/0.jpg)](http://www.youtube.com/watch?v=jX8nt-r6gYA "Detecting and Tracking Of AR tag")
+[![](http://img.youtube.com/vi/gJvK-fi9mds/0.jpg)](http://www.youtube.com/watch?v=gJvK-fi9mds "Dectecting, tracking and following AR Tag")
 
 **Video of Fine Positioning**
 
@@ -97,10 +97,7 @@ We were able to give a solution to the problem we stated above. We took the vari
 
 We tried to make this Repository to be detailed as we could and gave hidden links to the subfolders which are needed in performing the tasks. Please note to follow each step tasked in order to get results as we did.
  
- 
 
-**Project Management**
-- Trello board: https://trello.com/b/2IwKx6dv/robotics-engineering-m2
 
 ## Authors
 Meldrick Reimmer, Selma Boudisssa and Sonizara Danie
