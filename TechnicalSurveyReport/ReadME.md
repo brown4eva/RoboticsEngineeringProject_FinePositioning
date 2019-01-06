@@ -4,7 +4,7 @@
  
  **Configuration of the camera**
  <p align="center">
-<img src="Materials/images/eyeintohand.JPG" width="300">
+<img src="/Materials/images/eyeintohand.JPG" width="300">
 </p>
 
 
