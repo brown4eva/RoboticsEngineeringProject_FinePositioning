@@ -31,8 +31,8 @@ Given any location of the robot(Turtlebot2) we are to position it at a specific 
 1. Creating  a Map
 2. Navigate within the map created 
 3. Going to specific location 
-4. Detecting and tracking the tag
-5. Moving to the exact location of the tag
+4. Creation of AR tag to give priori knowledge 
+5. Detect and track AR tag to perform Fine Positioning
 
 # Implementation
 We accomplished each task of the objectives stated in order to give a solution to the **Problem Statement** . 
@@ -53,13 +53,16 @@ The **AR tags** allows us to estimate their position and orientation with respec
 
 - In order to create the marker follow the steps provided here ==> [Creating Marker](https://github.com/brown4eva/RoboticsEngineeringProject_FinePositioning/tree/master/Implementations/Creation_of_Marker)
 
+
+**Step 5 :**
+
+After the AR tag as been 
+
+
 **Video of Detection and Tracking of AR tag**
 
 
 [![](http://img.youtube.com/vi/jX8nt-r6gYA/0.jpg)](http://www.youtube.com/watch?v=jX8nt-r6gYA "Detecting and Tracking Of AR tag")
-
-
-**Step 5 :**
 
 **Video of Fine Positioning**
 
